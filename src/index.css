@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  padding: 2em;
+  background-color: rgb(245, 119, 119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.navbar > h2 {
+  font-weight: 300;
+}
+
+.nav-icon {
+  width: 3em;
+}
+
+.places {
+  display: flex;
+  justify-content: center;
+}
+
+.place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  margin-top: 2em;
+}
+
+.place > img {
+  width: 15em;
+  height: 20;
+}
+
+
+.basic-info > img {
+  width: 2em;
+}
+
+.place-desc {
+  width: 50%;
+}
+
