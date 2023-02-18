@@ -40,6 +40,10 @@
   height: 20;
 }
 
+.basic-info {
+  display: flex;
+  gap: 0.5em;
+}
 
 .basic-info > img {
   width: 2em;
